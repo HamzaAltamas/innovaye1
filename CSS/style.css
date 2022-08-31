@@ -73,12 +73,19 @@ h2 {
   font-weight: 600;
   font-size: 48px;
   line-height: 60px;
+  font-family: "Poppins", sans-serif;
 }
 h3 {
   font-weight: 600;
   font-size: 36px;
   line-height: 140%;
   color: #29313d;
+}
+small {
+  font-family: "Poppins", sans-serif;
+  color: #ff5538;
+  font-weight: 500;
+  font-size: 20px;
 }
 /* common css end */
 
@@ -466,10 +473,58 @@ nav {
 .connect-people-section-pink-snake {
   position: absolute;
   bottom: -400px;
-  left: 0;
+  left: -50px;
 }
 /* connect people in digital life end */
 
 /* works still countin start */
-
+.works-still-counting {
+  margin-top: 100px;
+}
+.work-still-header-and-button {
+  display: flex;
+  justify-content: space-between;
+}
+.work-still-header-and-button h2 {
+  width: 693px;
+}
+.work-still-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.work-still-content {
+  margin-top: 30px;
+}
+.mobile-app {
+  width: 39%;
+  height: 350px;
+  box-shadow: 0px -9px 40px rgba(26, 19, 62, 0.06);
+}
+.e-com_solution {
+  width: 59%;
+  height: 350px;
+  box-shadow: 0px -9px 40px rgba(26, 19, 62, 0.06);
+}
+.work-still-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 24px;
+}
+.card-img {
+  width: 100%;
+  height: 75%;
+  background-color: gray;
+}
+.card-txt {
+  padding: 15px 24px;
+  font-family: "Poppins", sans-serif;
+  color: #29313d;
+}
+.card-read-more {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #ff5538;
+}
 /* works still coountin end */
